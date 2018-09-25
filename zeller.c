@@ -22,7 +22,7 @@ int Y;
 int y;
 int c;
 int w;
-float x1;
+int x1;
 float x11;
 float x2;
 float x3;
@@ -118,7 +118,7 @@ int main () {
     printf("First two digits = %d\n", c);
 
     /* begin math */
-    x1 = floor(m + 1);
+    x1 = m + 1;
     x11 = floor(x1 * 2.6);
     printf("step1 = %f\n", x11);
     x2 = floor(y/4);
