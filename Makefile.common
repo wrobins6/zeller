@@ -1,0 +1,11 @@
+OBJECTS=zeller.o
+EXE_NAME=zeller$(EXE_EXT)
+
+all: $(EXE_NAME)
+
+$(EXE_NAME): zeller.o
+
+zeller.o: zeller.c
+
+clean:
+	rm -f $(EXE_NAME) $(OBJECTS)
